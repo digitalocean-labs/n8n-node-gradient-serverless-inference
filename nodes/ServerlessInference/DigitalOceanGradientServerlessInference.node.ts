@@ -3,7 +3,7 @@ import { INodeType, INodeTypeDescription, NodeConnectionType } from 'n8n-workflo
 import { textFields, textOperations } from './TextDescription';
 
 const baseURL = 'https://inference.do-ai.run/v1';
-const version = '1.0.5';
+const version = '1.0.6';
 
 export class DigitalOceanGradientServerlessInference implements INodeType {
 	description: INodeTypeDescription = {
@@ -12,7 +12,7 @@ export class DigitalOceanGradientServerlessInference implements INodeType {
 		name: 'digitalOceanGradientServerlessInference',
 		icon: { light: 'file:DO-Gradient-AI-Agentic-Cloud-logo.svg', dark: 'file:DO-gradient-ai-logo-white.svg' },
 		group: ['transform'],
-		version: [1, 1.0],
+		version: [1],
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
 		description: 'Consume DigitalOcean Gradient™ AI Serverless Inference',
 		defaults: {
