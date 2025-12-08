@@ -17,7 +17,7 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 1. Go to **Settings > Community Nodes**
 2. Select **Install**
-3. Enter `@digitalocean/n8n-nodes-digitalocean-serverless-inference` in **Enter npm package name**
+3. Enter `@digitalocean/n8n-nodes-digitalocean-gradient-serverless-inference` in **Enter npm package name**
 4. Agree to the risks of using community nodes
 5. Select **Install**
 
